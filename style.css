@@ -25,6 +25,21 @@ h1 {
     flex-direction: row;
 }
 
+.pai .filho:nth-child(1){
+    align-self: flex-start;
+    order: 1;
+} 
+
+.pai .filho:nth-child(2){
+    align-self: flex-end;
+    order: 3;
+}
+
+.pai .filho:nth-child(3){
+    align-self: center;
+    order: 2;
+} 
+
 .filho {
     width: 80px;
     height: 80px;
@@ -34,19 +49,14 @@ h1 {
 
 .cor1 {
     background-color: #ED145B;
-    order: 1;
 }
 
 .cor2 {
     background-color: #63B1BC;
-    order: 3;
-    align-self: flex-end;
 }
 
 .cor3 {
     background-color: #EFB661;
-    align-self: center;
-    order: 2;
 }
 
 .instrucoes {
